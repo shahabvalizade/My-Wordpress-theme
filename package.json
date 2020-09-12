@@ -1,20 +1,20 @@
 {
   "name": "shahabtheme",
   "version": "1.0.0",
-  "description": "This is shahab valizade first wordpress theme",
+  "description": "Shahab Valizade first wp theme!",
   "author": "Shahab Valizade",
   "license": "GPL-2.0-or-later",
   "keywords": [
     "WordPress",
     "Theme"
   ],
-  "homepage": "https://github.com/Automattic/_s#readme",
+  "homepage": "https://gitlab.com/my-public-projects1/my-wordpress-theme/-/blob/master/readme.txt",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Automattic/_s.git"
+    "url": "git+https://gitlab.com/my-public-projects1/my-wordpress-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/Automattic/_s/issues"
+    "url": "https://gitlab.com/my-public-projects1/my-wordpress-theme/-/issues"
   },
   "devDependencies": {
     "@wordpress/scripts": "^12.1.0",
