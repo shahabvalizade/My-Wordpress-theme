@@ -398,7 +398,10 @@ html {
 --------------------------------------------- */
 @font-face {
 	font-family: IRANSansWeb;
-	src: url(fonts/IRANSansWeb.eot), url(fonts/IRANSansWeb.woff2) format("woff2"), url(fonts/IRANSansWeb.woff) format("woff"), url(fonts/IRANSansWeb.ttf) format("ttf");
+	src: url("fonts/IRANSansWeb.eot");
+
+	/* IE9 Compat Modes */
+	src: url("fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("fonts/IRANSansWeb.woff") format("woff"), url("fonts/IRANSansWeb.woff2") format("woff2"), url("fonts/IRANSansWeb.ttf") format("truetype");
 
 	/* Safari, Android, iOS */
 }
