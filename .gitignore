@@ -1,7 +1,5 @@
+#IDE
 .idea/*
 
+#node
 node_modules/*
-package-lock.json
-
-vendor/*
-composer.lock

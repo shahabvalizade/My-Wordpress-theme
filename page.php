@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package shahab_theme
+ * @package Shahab_Valizade_Theme
  */
 
 get_header();

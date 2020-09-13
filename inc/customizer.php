@@ -1,8 +1,8 @@
 <?php
 /**
- * shahab theme Theme Customizer
+ * Shahab Valizade Theme Theme Customizer
  *
- * @package shahab_theme
+ * @package Shahab_Valizade_Theme
  */
 
 /**
@@ -10,7 +10,7 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function shahab_theme_customize_register( $wp_customize ) {
+function shahabtheme_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
@@ -20,26 +20,26 @@ function shahab_theme_customize_register( $wp_customize ) {
 			'blogname',
 			array(
 				'selector'        => '.site-title a',
-				'render_callback' => 'shahab_theme_customize_partial_blogname',
+				'render_callback' => 'shahabtheme_customize_partial_blogname',
 			)
 		);
 		$wp_customize->selective_refresh->add_partial(
 			'blogdescription',
 			array(
 				'selector'        => '.site-description',
-				'render_callback' => 'shahab_theme_customize_partial_blogdescription',
+				'render_callback' => 'shahabtheme_customize_partial_blogdescription',
 			)
 		);
 	}
 }
-add_action( 'customize_register', 'shahab_theme_customize_register' );
+add_action( 'customize_register', 'shahabtheme_customize_register' );
 
 /**
  * Render the site title for the selective refresh partial.
  *
  * @return void
  */
-function shahab_theme_customize_partial_blogname() {
+function shahabtheme_customize_partial_blogname() {
 	bloginfo( 'name' );
 }
 
@@ -48,14 +48,14 @@ function shahab_theme_customize_partial_blogname() {
  *
  * @return void
  */
-function shahab_theme_customize_partial_blogdescription() {
+function shahabtheme_customize_partial_blogdescription() {
 	bloginfo( 'description' );
 }
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function shahab_theme_customize_preview_js() {
-	wp_enqueue_script( 'shahab-theme-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+function shahabtheme_customize_preview_js() {
+	wp_enqueue_script( 'shahabtheme-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
 }
-add_action( 'customize_preview_init', 'shahab_theme_customize_preview_js' );
+add_action( 'customize_preview_init', 'shahabtheme_customize_preview_js' );

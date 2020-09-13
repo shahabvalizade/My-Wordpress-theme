@@ -1,4 +1,4 @@
-=== shahab theme ===
+=== Shahab Valizade Theme ===
 
 Contributors: automattic
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
@@ -10,11 +10,11 @@ Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
-A starter theme called shahab theme.
+A starter theme called Shahab Valizade Theme.
 
 == Description ==
 
-Description
+This is my first theme for learning
 
 == Installation ==
 
@@ -26,7 +26,7 @@ Description
 
 = Does this theme support any plugins? =
 
-shahab theme includes support for WooCommerce and for Infinite Scroll in Jetpack.
+Shahab Valizade Theme includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
 

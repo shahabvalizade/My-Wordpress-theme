@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package shahab_theme
+ * @package Shahab_Valizade_Theme
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
