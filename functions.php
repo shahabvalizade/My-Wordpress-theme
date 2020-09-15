@@ -145,7 +145,6 @@ function shahabtheme_scripts() {
 
     wp_style_add_data( 'shahabtheme-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'shahabtheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array(), _S_VERSION, true );
     wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.js', array(), _S_VERSION, true );
 
