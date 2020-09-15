@@ -492,33 +492,6 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul,
-ol {
-	margin: 0 0 1.5em 3em;
-}
-
-ul {
-	list-style: disc;
-}
-
-ol {
-	list-style: decimal;
-}
-
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-}
-
-dt {
-	font-weight: 700;
-}
-
-dd {
-	margin: 0 1.5em 1.5em;
-}
-
 /* Make sure embeds and iframes fit their containers. */
 embed,
 iframe,
@@ -542,28 +515,6 @@ table {
 
 /* Links
 --------------------------------------------- */
-a {
-	color: #4169e1;
-}
-
-a:visited {
-	color: #800080;
-}
-
-a:hover,
-a:focus,
-a:active {
-	color: #191970;
-}
-
-a:focus {
-	outline: thin dotted;
-}
-
-a:hover,
-a:active {
-	outline: 0;
-}
 
 /* Forms
 --------------------------------------------- */
@@ -660,7 +611,7 @@ textarea {
 .site-branding {
 	background-color: #072237;
 	color: white;
-	padding: 30px 30px;
+	padding: 30px 50px;
 	text-align: left;
 }
 
@@ -679,93 +630,42 @@ textarea {
 	display: inline;
 }
 
-.main-navigation ul {
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+#primary-menu {
+	text-align: left;
 }
 
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
+#primary-menu ul {
+	list-style-type: none;
+	background-color: gray;
+	padding: 11px 30px 11px 30px;
 }
 
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
+#primary-menu ul li {
+	display: inline;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
-}
-
-.main-navigation ul ul a {
-	width: 200px;
-}
-
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
-}
-
-.main-navigation li {
-	position: relative;
-}
-
-.main-navigation a {
-	display: block;
+#primary-menu ul li a {
+	color: white;
 	text-decoration: none;
+	padding: 10px 30px;
+	background-color: gray;
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
+#primary-menu ul li a:hover {
+	color: white;
+	background-color: #072237;
 }
 
-@media screen and (min-width: 37.5em) {
-
-	.menu-toggle {
-		display: none;
-	}
-
-	.main-navigation ul {
-		display: flex;
-	}
+#primary-menu ul li a:active {
+	color: white;
+	background-color: #072237;
 }
 
-.site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
-	margin: 0 0 1.5em;
-}
-
-.comment-navigation .nav-links,
-.posts-navigation .nav-links,
-.post-navigation .nav-links {
-	display: flex;
-}
-
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
-	flex: 1 0 50%;
-}
-
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
-	text-align: end;
-	flex: 1 0 50%;
+button.menu-toggle {
+	position: absolute;
+	top: 60px;
+	right: 40px;
+	display: none;
 }
 
 /* Posts and pages
