@@ -624,6 +624,16 @@ textarea {
 	color: white;
 }
 
+a.custom-logo-link {
+	width: 90px;
+	height: 90px;
+	margin: auto 20px auto 0;
+}
+
+.site-branding {
+	display: flex;
+}
+
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
