@@ -671,6 +671,33 @@ a.custom-logo-link {
 	background-color: #072237;
 }
 
+#primary-menu {
+	list-style-type: none;
+	background-color: gray;
+	padding: 11px 30px 11px 30px;
+}
+
+#primary-menu li {
+	display: inline;
+}
+
+#primary-menu li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: gray;
+}
+
+#primary-menu li a:hover {
+	color: white;
+	background-color: #072237;
+}
+
+#primary-menu li a:active {
+	color: white;
+	background-color: #072237;
+}
+
 button.menu-toggle {
 	position: absolute;
 	top: 60px;
