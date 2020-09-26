@@ -48,8 +48,12 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'shahabtheme' ); ?></button>
-			<?php
+            <div class="burger-menu-container">
+                <div class="burger-bar1"></div>
+                <div class="burger-bar2"></div>
+                <div class="burger-bar3"></div>
+            </div>
+            <?php
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
