@@ -47,12 +47,22 @@
                 </div>
 		</div><!-- .site-branding -->
 
-		<nav id="site-navigation" class="main-navigation">
-            <div class="burger-menu-container">
-                <div class="burger-bar1"></div>
-                <div class="burger-bar2"></div>
-                <div class="burger-bar3"></div>
-            </div>
+            <nav id="site-navigation" class="main-navigation">
+                <div class="burger-menu-container">
+                    <div class="burger-menu-button">
+                        <div class="burger-bar1"></div>
+                        <div class="burger-bar2"></div>
+                        <div class="burger-bar3"></div>
+                    </div>
+                           <?php
+                        wp_nav_menu(
+                            array(
+                            'theme_location' => 'menu-1',
+                            'menu_id'        => 'primary-burger-menu',
+                            )
+                        );
+                        ?>
+                </div>
             <?php
 			wp_nav_menu(
 				array(
