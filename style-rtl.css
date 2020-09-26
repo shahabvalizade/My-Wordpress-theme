@@ -708,7 +708,7 @@ a.custom-logo-link {
 	left: 40px;
 }
 
-.burger-menu-container {
+.burger-menu-button {
 	display: inline-block;
 	cursor: pointer;
 	background-color: rgba(255, 255, 255, 0.3);
@@ -740,9 +740,13 @@ a.custom-logo-link {
 	transform: rotate(-45deg) translate(8px, -8px);
 }
 
+#primary-burger-menu {
+	display: none;
+}
+
 @media screen and (min-width: 997px) {
 
-	.burger-menu-container {
+	.burger-menu-button {
 		display: none;
 	}
 

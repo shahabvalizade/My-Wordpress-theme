@@ -59,7 +59,7 @@
 }
 
 //burger menu
-.burger-menu-container {
+.burger-menu-button {
 	display: inline-block;
 	cursor: pointer;
 	background-color: rgba(255, 255, 255, 0.3);
@@ -86,9 +86,13 @@
 	-webkit-transform: rotate(45deg) translate(-8px, -8px);
 	transform: rotate(45deg) translate(-8px, -8px);
 }
+#primary-burger-menu {
+	display: none;
+}
+
 
 @media screen and (min-width: 997px) {
-	.burger-menu-container {
+	.burger-menu-button {
 		display: none;
 	}
 	#site-navigation #primary-menu{
