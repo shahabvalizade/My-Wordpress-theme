@@ -640,72 +640,27 @@ a.custom-logo-link {
 	display: inline;
 }
 
-#primary-menu {
-	text-align: right;
-}
-
-#primary-menu ul {
-	list-style-type: none;
-	background-color: gray;
-	padding: 11px 30px 11px 30px;
-}
-
-#primary-menu ul li {
-	display: inline;
-}
-
-#primary-menu ul li a {
-	color: white;
-	text-decoration: none;
-	padding: 10px 30px;
-	background-color: gray;
-}
-
-#primary-menu ul li a:hover {
-	color: white;
-	background-color: #072237;
-}
-
-#primary-menu ul li a:active {
-	color: white;
-	background-color: #072237;
-}
-
-#primary-menu {
-	list-style-type: none;
-	background-color: gray;
-	padding: 11px 30px 11px 30px;
-}
-
-#primary-menu li {
-	display: inline;
-}
-
-#primary-menu li a {
-	color: white;
-	text-decoration: none;
-	padding: 10px 30px;
-	background-color: gray;
-}
-
-#primary-menu li a:hover {
-	color: white;
-	background-color: #072237;
-}
-
-#primary-menu li a:active {
-	color: white;
-	background-color: #072237;
-}
-
 #site-navigation #primary-menu {
 	display: none;
 }
 
-.burger-menu-container {
-	position: absolute;
-	top: 60px;
-	left: 40px;
+#primary-burger-menu {
+	display: none;
+}
+
+#primary-burger-menu li {
+	list-style-type: none;
+	background-color: white;
+	opacity: 80%;
+}
+
+#primary-burger-menu a {
+	color: black;
+}
+
+#primary-burger-menu a:hover,
+#primary-burger-menu a:active {
+	color: black;
 }
 
 .burger-menu-button {
@@ -721,7 +676,7 @@ a.custom-logo-link {
 .burger-bar3 {
 	width: 35px;
 	height: 5px;
-	background-color: whitesmoke;
+	background-color: black;
 	margin: 6px 0;
 	transition: 0.4s;
 }
@@ -740,31 +695,35 @@ a.custom-logo-link {
 	transform: rotate(-45deg) translate(8px, -8px);
 }
 
-#primary-burger-menu {
-	display: none;
-}
-
-#primary-burger-menu li {
-	list-style-type: none;
-	background-color: white;
-	opacity: 80%;
-}
-
-#primary-burger-menu a,
-#primary-burger-menu a:hover,
-#primary-burger-menu a:active,
-#primary-burger-menu a:hover {
-	color: black;
-}
-
 @media screen and (min-width: 997px) {
-
-	.burger-menu-button {
-		display: none;
-	}
 
 	#site-navigation #primary-menu {
 		display: block;
+		text-align: right;
+		list-style-type: none;
+		background-color: gray;
+		padding: 11px 30px 11px 30px;
+	}
+
+	#site-navigation #primary-menu li {
+		display: inline;
+	}
+
+	#site-navigation #primary-menu li a {
+		color: white;
+		text-decoration: none;
+		padding: 10px 30px;
+		background-color: gray;
+	}
+
+	#site-navigation #primary-menu li a:hover,
+	#site-navigation #primary-menu li a:active {
+		color: white;
+		background-color: #072237;
+	}
+
+	.burger-menu-button {
+		display: none;
 	}
 }
 
