@@ -36,6 +36,7 @@
 				        <?php
 			        else :
 				        ?>
+                    <div class="site-title-description">
 				        <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				        <?php
 			        endif;
