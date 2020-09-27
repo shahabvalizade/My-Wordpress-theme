@@ -89,6 +89,15 @@
 #primary-burger-menu {
 	display: none;
 }
+#primary-burger-menu li{
+	list-style-type: none;
+	background-color: white;
+	opacity: 80%;
+}
+#primary-burger-menu a, #primary-burger-menu a:hover, #primary-burger-menu a:active, #primary-burger-menu a:hover{
+	color: black;
+}
+
 
 
 @media screen and (min-width: 997px) {

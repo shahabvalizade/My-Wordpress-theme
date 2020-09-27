@@ -12,7 +12,7 @@
             jQuery('.burger-menu-button').toggleClass("change");
 
             if (jQuery('#primary-burger-menu').css('display') === 'none'){
-                jQuery('#primary-burger-menu').css('display', 'flex');
+                jQuery('#primary-burger-menu').css('display', 'block');
             }
             else{
                 jQuery('#primary-burger-menu').css('display', 'none');
