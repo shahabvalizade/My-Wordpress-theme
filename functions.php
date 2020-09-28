@@ -51,7 +51,8 @@ if ( ! function_exists( 'shahabtheme_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'shahabtheme' ),
-			)
+                'menu-2' => esc_html__( 'Social', 'shahabtheme' ),
+            )
 		);
 
 		/*
