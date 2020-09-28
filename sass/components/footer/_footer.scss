@@ -1,0 +1,21 @@
+#footer {
+  background-color: #072237;
+  color: white;
+  padding: 30px 50px;
+  text-align: left;
+  #social-menu{
+    display: flex;
+    justify-content: space-evenly;
+    li{
+      list-style-type: none;
+      a{
+        color: white;
+        text-decoration: none;
+        &:hover, &:active, &:visited{
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
