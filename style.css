@@ -865,6 +865,36 @@ a.custom-logo-link {
 	display: block;
 }
 
+/* Footer
+--------------------------------------------- */
+#footer {
+	background-color: #072237;
+	color: white;
+	padding: 30px 50px;
+	text-align: left;
+}
+
+#footer #social-menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#footer #social-menu li {
+	list-style-type: none;
+}
+
+#footer #social-menu li a {
+	color: white;
+	text-decoration: none;
+}
+
+#footer #social-menu li a:hover,
+#footer #social-menu li a:active,
+#footer #social-menu li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
