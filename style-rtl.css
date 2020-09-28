@@ -875,12 +875,14 @@ a.custom-logo-link {
 }
 
 #footer #social-menu {
-	display: flex;
-	justify-content: space-evenly;
+	display: block;
+	column-count: 2;
+	text-align: center;
 }
 
 #footer #social-menu li {
 	list-style-type: none;
+	padding-bottom: 10px;
 }
 
 #footer #social-menu li a {
@@ -893,6 +895,15 @@ a.custom-logo-link {
 #footer #social-menu li a:visited {
 	color: white;
 	text-decoration: none;
+}
+
+@media screen and (min-width: 997px) {
+
+	#footer #social-menu {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 10px 30px 30px 30px;
+	}
 }
 
 /*--------------------------------------------------------------

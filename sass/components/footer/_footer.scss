@@ -4,10 +4,12 @@
   padding: 30px 50px;
   text-align: left;
   #social-menu{
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
+    column-count: 2;
+    text-align: center;
     li{
       list-style-type: none;
+      padding-bottom: 10px;
       a{
         color: white;
         text-decoration: none;
@@ -18,4 +20,14 @@
       }
     }
   }
+}
+
+@media screen and (min-width: 997px) {
+  #footer{
+    #social-menu{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 10px 30px 30px 30px;
+      }
+    }
 }
