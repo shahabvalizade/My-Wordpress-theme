@@ -644,6 +644,14 @@ a.custom-logo-link {
 	display: none;
 }
 
+ul.sub-menu {
+	display: none;
+}
+
+.menu-item-has-children:hover ul.sub-menu {
+	display: inline;
+}
+
 .burger-menu-container {
 	background-color: gray;
 }

@@ -7,6 +7,17 @@
 		display: none;
 	}
 }
+//submenu
+ul.sub-menu {
+	display: none;
+}
+
+.menu-item-has-children:hover{
+	ul.sub-menu {
+		display: inline;
+	}
+}
+
 
 //burger menu
 
