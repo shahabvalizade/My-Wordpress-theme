@@ -66,22 +66,48 @@
 //**********Desktop Style**********
 @media screen and (min-width: 997px) {
 	#site-navigation {
-		#primary-menu{
-			display: block;
-			text-align: left;
-			list-style-type: none;
-			background-color: gray;
-			padding: 11px 30px 11px 30px;
-			li {
-				display: inline;
-				a {
-					color: white;
-					text-decoration: none;
-					padding: 10px 30px;
-					background-color: gray;
-					&:hover, &:active {
+		.menu-header-container{
+			#primary-menu{
+				height: 46px;
+				display: block;
+				text-align: left;
+				list-style-type: none;
+				background-color: gray;
+				padding: 11px 30px 11px 30px;
+				& > li {
+					float: left;
+				}
+				li{
+					display: inline;
+					a {
 						color: white;
-						background-color: #072237;
+						text-decoration: none;
+						padding: 10px 30px;
+						background-color: gray;
+						&:hover, &:active {
+							color: white;
+							background-color: #072237;
+						}
+					}
+				}
+				.menu-item-has-children{
+					ul.sub-menu {
+						display: none;
+						position: absolute;
+						z-index: 1;
+						a{
+							float: none;
+							text-decoration: none;
+							display: block;
+							text-align: left;
+						}
+					}
+					&:hover{
+						ul.sub-menu {
+							padding: 0;
+							margin-top: 10px;
+							display: block;
+						}
 					}
 				}
 			}
