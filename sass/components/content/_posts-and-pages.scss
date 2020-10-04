@@ -2,11 +2,6 @@
 	display: block;
 }
 
-.post,
-.page {
-	margin: 0 0 1.5em;
-}
-
 .updated:not(.published) {
 	display: none;
 }
@@ -21,3 +16,42 @@
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+article {
+	#post-cover{
+		position: relative;
+		height: 400px;
+		overflow: hidden;
+		text-align: center;
+		background-color: #072237;
+		header{
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 10vh;
+			margin: 10px 100px;
+			padding-bottom: 20px;
+			color: white;
+			background-color: rgba(0,0,0,0.3);
+			a{
+				text-decoration: none;
+				color: white;
+				&:visited{
+					color: white;
+					text-decoration: none;
+				}
+				&:hover{
+					text-decoration: underline;
+				}
+
+			}
+		}
+	}
+
+
+
+}
+
+
+
+
