@@ -32,7 +32,7 @@
 				transform: rotate(45deg) translate(-8px, -8px);
 			}
 		}
-		.menu-header-container{
+		div{
 			#primary-burger-menu{
 				display: none;
 				padding: 0;
@@ -66,7 +66,7 @@
 //**********Desktop Style**********
 @media screen and (min-width: 997px) {
 	#site-navigation {
-		.menu-header-container{
+		div{
 			#primary-menu{
 				height: 46px;
 				display: block;
