@@ -1,5 +1,25 @@
-.sticky {
-	display: block;
+body.blog{
+	main#primary{
+		article{
+			margin: 60px 30px 100px 30px;
+
+			header.entry-header {
+				text-align: center;
+			}
+		}
+	}
+}
+body{
+	main#primary{
+		article{
+			.entry-content{
+				margin: 60px 30px 100px 30px;
+			}
+			.entry-footer{
+				margin: 0 30px;
+			}
+		}
+	}
 }
 
 .updated:not(.published) {
