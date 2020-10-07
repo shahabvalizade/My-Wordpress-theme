@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
 "POT-Creation-Date: 2020-04-17T21:03:15+00:00\n"
-"PO-Revision-Date: 2020-10-03 13:16+0430\n"
+"PO-Revision-Date: 2020-10-07 12:11+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #. Author of the theme
 msgid "Automattic"
-msgstr "اتوماتیک"
+msgstr ""
 
 #. Author URI of the theme
 msgid "https://automattic.com/"
@@ -40,15 +40,13 @@ msgstr ""
 
 #: 404.php:18
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "صفحه مورد نظر پیدا نشد."
+msgstr "چیزی پیدا نشد!"
 
 #: 404.php:22
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
-msgstr ""
-"به نظر می رسد در این مکان هیچ چیزی پیدا نشده است. ممکن است یکی از لینک های "
-"زیر را امتحان کنید یا یک جستجو؟"
+msgstr "آدرس رو اشتباه نزدی؟ شاید با سرچ بتونی پیدا کنی!"
 
 #: 404.php:31
 msgid "Most Used Categories"
@@ -62,7 +60,7 @@ msgstr "سعی کنید در آرشیو های ماهیانه نگاه کنید.
 #. translators: 1: title.
 #: comments.php:35
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "یک دیدگاه برای &ldquo;%1$s&rdquo;"
+msgstr "یک کامنت برای &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
@@ -74,7 +72,7 @@ msgstr[1] ""
 
 #: comments.php:68
 msgid "Comments are closed."
-msgstr "دیدگاهها بسته هستند."
+msgstr "کامنتها بسته هستند."
 
 #: footer.php:18
 msgid "https://wordpress.org/"
@@ -114,23 +112,23 @@ msgstr ""
 #: inc/template-tags.php:30
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "منتشر شده در تاریخ %s | "
 
 #. translators: %s: post author.
 #: inc/template-tags.php:46
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "نویسنده %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:63
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:66
 msgid "Posted in %1$s"
-msgstr "ارسال شده در دسته ‌بندی %1$s"
+msgstr "دسته: %1$s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:70
@@ -141,17 +139,17 @@ msgstr ""
 #. translators: 1: list of tags.
 #: inc/template-tags.php:73
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "تگ:   %1$s"
 
 #. translators: %s: post title
 #: inc/template-tags.php:83
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgstr "کامنت بذارید <span class=\"screen-reader-text\"> در %s</span>"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:100 template-parts/content-page.php:39
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr ""
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
 
 #: inc/woocommerce.php:186
 msgid "View your shopping cart"
@@ -206,4 +204,4 @@ msgstr ""
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content.php:40
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr ""
+msgstr "ادامه مطلب<span class=\"screen-reader-text\"> \"%s\"</span>"
