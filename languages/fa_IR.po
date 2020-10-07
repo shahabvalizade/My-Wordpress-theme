@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
 "POT-Creation-Date: 2020-04-17T21:03:15+00:00\n"
-"PO-Revision-Date: 2020-10-07 12:11+0430\n"
+"PO-Revision-Date: 2020-10-07 12:30+0430\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -112,7 +112,7 @@ msgstr ""
 #: inc/template-tags.php:30
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr "منتشر شده در تاریخ %s | "
+msgstr "منتشر شده در تاریخ %s"
 
 #. translators: %s: post author.
 #: inc/template-tags.php:46
