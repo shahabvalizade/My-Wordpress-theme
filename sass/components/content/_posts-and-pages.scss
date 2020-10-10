@@ -1,10 +1,20 @@
 body.blog{
 	main#primary{
 		article{
-			margin: 60px 30px 100px 30px;
+			margin: 60px 30px 120px 30px;
 
 			header.entry-header {
 				text-align: center;
+			}
+			.entry-content{
+				a.more-link {
+					float: right;
+					background-color: #072237;
+					padding: 20px 50px;
+					color: white;
+					font-weight: bold;
+					border-radius: 5%;
+				}
 			}
 		}
 	}
@@ -13,7 +23,7 @@ body{
 	main#primary{
 		article{
 			.entry-content{
-				margin: 60px 30px 100px 30px;
+				margin: 60px 30px;
 			}
 			.entry-footer{
 				margin: 0 30px;
@@ -67,11 +77,18 @@ article {
 			}
 		}
 	}
-
-
-
 }
 
+//**********Desktop Style**********
+@media screen and (min-width: 997px) {
+	body.blog{
+		main#primary{
+			article{
+				margin: 60px 90px 150px 90px;
+			}
+		}
+	}
+}
 
 
 
