@@ -49,6 +49,11 @@
                         shahabtheme_posted_by();
                         ?>
                     </div><!-- .entry-meta -->
+                    <div class="post-entry-meta">
+                        <?php
+                        shahabtheme_post_meta();
+                        ?>
+                    </div>
                 <?php endif; ?>
             </header><!-- .entry-header -->
             <?php shahabtheme_post_thumbnail(); ?>
