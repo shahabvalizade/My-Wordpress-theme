@@ -101,7 +101,10 @@ if ( ! function_exists( 'shahabtheme_setup' ) ) :
 				'flex-height' => true,
 			)
 		);
-	}
+
+        // Add theme support for selective refresh for widgets.
+        add_theme_support( 'align-wide' );
+    }
 endif;
 add_action( 'after_setup_theme', 'shahabtheme_setup' );
 
