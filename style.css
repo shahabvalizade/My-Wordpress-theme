@@ -830,6 +830,22 @@ body.single-post main#primary nav.post-navigation .nav-links .nav-next a:visited
 	text-decoration: none;
 }
 
+body.single-post main#primary #comments {
+	margin: 60px 30px;
+}
+
+body.single-post main#primary #comments h2.comments-title {
+	margin-bottom: 1.5rem;
+}
+
+body.single-post main#primary #comments .comment-content p {
+	margin-bottom: 0.5rem;
+}
+
+body.single-post main#primary #comments div#respond {
+	margin-top: 3rem;
+}
+
 .updated:not(.published) {
 	display: none;
 }
@@ -881,7 +897,7 @@ article #post-cover header a:hover {
 @media screen and (min-width: 997px) {
 
 	body.blog main#primary article {
-		margin: 60px 90px 150px 90px;
+		margin: 60px 10% 150px 10%;
 	}
 
 	body.single-post main#primary article .entry-content {
@@ -902,6 +918,10 @@ article #post-cover header a:hover {
 	body.single-post main#primary nav.post-navigation .nav-links .nav-previous a,
 	body.single-post main#primary nav.post-navigation .nav-links .nav-next a {
 		font-size: 24px;
+	}
+
+	body.single-post main#primary #comments {
+		margin: 60px 90px;
 	}
 }
 

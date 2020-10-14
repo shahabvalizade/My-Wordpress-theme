@@ -55,6 +55,18 @@ body.single-post{
 				}
 			}
 		}
+		#comments{
+			margin: 60px 30px;
+			h2.comments-title {
+				margin-bottom: 1.5rem;
+			}
+			.comment-content p {
+				margin-bottom: 0.5rem;
+			}
+			div#respond {
+				margin-top: 3rem;
+			}
+		}
 	}
 }
 
@@ -110,7 +122,7 @@ article {
 	body.blog{
 		main#primary{
 			article{
-				margin: 60px 90px 150px 90px;
+				margin: 60px 10% 150px 10%;
 			}
 		}
 	}
@@ -137,6 +149,9 @@ article {
 						}
 					}
 				}
+			}
+			#comments{
+				margin: 60px 90px;
 			}
 		}
 	}
