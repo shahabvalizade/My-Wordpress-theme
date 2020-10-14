@@ -7,3 +7,4 @@ Installation
 ---------------
 
 Just copy theme in wp-content/theme folder and activate it from wordpress admin dashboard.
+test commit.
