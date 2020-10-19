@@ -128,12 +128,6 @@ article {
 	}
 	body.single-post{
 		main#primary{
-			article{
-				.entry-content{
-					margin: 60px 90px 150px 90px;
-
-				}
-			}
 			nav.post-navigation{
 				.nav-links {
 					display: flex;
@@ -156,7 +150,41 @@ article {
 		}
 	}
 
-}
+	body.single-post.has-sidebar{
+		main#primary {
+			article {
+				.entry-content {
+					margin: 0;
+				}
+				.content-sidebar {
+					margin: 60px 90px 150px 90px;
+					display: flex;
+					place-content: space-between;
+
+					.single-content {
+						width: 70%;
+					}
+
+					aside#secondary {
+						width: 25%;
+					}
+				}
+			}
+		}
+	}
+	body.single-post.no-sidebar{
+		main#primary {
+			article {
+				.entry-content {
+					margin: 60px 90px 150px 90px;
+				}
+			}
+		}
+	}
+
+
+
+	}
 
 
 
