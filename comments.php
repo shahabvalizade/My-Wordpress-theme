@@ -32,13 +32,12 @@ if ( post_password_required() ) {
 			if ( '1' === $shahabtheme_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'shahabtheme' ),
-					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
+					esc_html__( 'One Comment:', 'shahabtheme' )
 				);
 			} else {
-				printf( 
+				printf(
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $shahabtheme_comment_count, 'comments title', 'shahabtheme' ) ),
+					esc_html( _nx( '%1$s Comments:', '%1$s Comments:', $shahabtheme_comment_count, 'comments title', 'shahabtheme' ) ),
 					number_format_i18n( $shahabtheme_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
@@ -46,14 +45,13 @@ if ( post_password_required() ) {
 			?>
 		</h2><!-- .comments-title -->
 
-		<?php the_comments_navigation(); ?>
-
 		<ol class="comment-list">
 			<?php
 			wp_list_comments(
 				array(
 					'style'      => 'ol',
 					'short_ping' => true,
+                    'avatar_size'=> 94,
 				)
 			);
 			?>
