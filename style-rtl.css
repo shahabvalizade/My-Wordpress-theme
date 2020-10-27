@@ -1020,10 +1020,35 @@ article #post-cover header a:hover {
 --------------------------------------------- */
 .widget {
 	margin: 0 0 1.5em;
+	font-size: 15px;
+}
+
+.widget h3,
+.widget h2 {
+	font-size: 22px;
 }
 
 .widget select {
 	max-width: 100%;
+}
+
+#footer-widget {
+	margin: 60px 30px;
+}
+
+@media screen and (min-width: 997px) {
+
+	#footer-widget {
+		margin: 60px 90px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	#footer-widget section.widget {
+		width: 40%;
+		margin-bottom: 3em;
+	}
 }
 
 /* Media
@@ -1117,7 +1142,7 @@ article #post-cover header a:hover {
 --------------------------------------------- */
 #footer {
 	background-color: #072237;
-	color: white;
+	color: #fff;
 	padding: 30px 50px;
 	text-align: right;
 }
@@ -1134,14 +1159,14 @@ article #post-cover header a:hover {
 }
 
 #footer #social-menu li a {
-	color: white;
+	color: #fff;
 	text-decoration: none;
 }
 
 #footer #social-menu li a:hover,
 #footer #social-menu li a:active,
 #footer #social-menu li a:visited {
-	color: white;
+	color: #fff;
 	text-decoration: none;
 }
 
