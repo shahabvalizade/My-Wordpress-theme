@@ -11,6 +11,8 @@
 
 ?>
 
+    <?php get_sidebar('footer'); ?>
+
 	<footer id="footer" class="site-footer">
         <?php
         wp_nav_menu(
