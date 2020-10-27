@@ -29,19 +29,12 @@ if ( post_password_required() ) {
 		<h2 class="comments-title">
 			<?php
 			$shahabtheme_comment_count = get_comments_number();
-			if ( '1' === $shahabtheme_comment_count ) {
-				printf(
-					/* translators: 1: title. */
-					esc_html__( 'One Comment:', 'shahabtheme' )
-				);
-			} else {
 				printf(
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s Comments:', '%1$s Comments:', $shahabtheme_comment_count, 'comments title', 'shahabtheme' ) ),
+					esc_html( _nx( '%1$s Comment:', '%1$s Comments:', $shahabtheme_comment_count, 'comments title', 'shahabtheme' ) ),
 					number_format_i18n( $shahabtheme_comment_count ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 					'<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
-			}
 			?>
 		</h2><!-- .comments-title -->
 
