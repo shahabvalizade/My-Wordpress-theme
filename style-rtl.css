@@ -949,10 +949,6 @@ article #post-cover header a:hover {
 	word-wrap: break-word;
 }
 
-.bypostauthor {
-	display: block;
-}
-
 #comments ol {
 	list-style-type: none;
 }
@@ -1014,6 +1010,10 @@ article #post-cover header a:hover {
 
 #comments #respond #reply-title a#cancel-comment-reply-link {
 	font-size: 18px;
+}
+
+#comments .bypostauthor img {
+	border: 5px solid #072237;
 }
 
 /* Widgets
