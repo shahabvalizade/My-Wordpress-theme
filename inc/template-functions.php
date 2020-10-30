@@ -15,14 +15,22 @@ function shahabtheme_body_classes( $classes ) {
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
+        if ( ! is_active_sidebar( 'sidebar-2' ) ) {
+            $classes[] = 'main-no-sidebar';
+        } else {
+            $classes[] = 'main-has-sidebar';
+        }
 	}
+	else{
+        if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+            $classes[] = 'blog-no-sidebar';
+        } else {
+            $classes[] = 'blog-has-sidebar';
+        }
+    }
 
 	// Adds a class of no-sidebar when there is no sidebar present.
-	if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-		$classes[] = 'no-sidebar';
-	} else {
-        $classes[] = 'has-sidebar';
-    }
+
 
 	return $classes;
 }

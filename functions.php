@@ -128,7 +128,7 @@ add_action( 'after_setup_theme', 'shahabtheme_content_width', 0 );
 function shahabtheme_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'shahabtheme' ),
+			'name'          => esc_html__( 'Post Page Sidebar', 'shahabtheme' ),
 			'id'            => 'sidebar-1',
 			'description'   => esc_html__( 'Add widgets here.', 'shahabtheme' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -137,6 +137,17 @@ function shahabtheme_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
+    register_sidebar(
+        array(
+            'name'          => esc_html__( 'Front Page Sidebar', 'shahabtheme' ),
+            'id'            => 'sidebar-2',
+            'description'   => esc_html__( 'Add widgets here.', 'shahabtheme' ),
+            'before_widget' => '<section id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</section>',
+            'before_title'  => '<h2 class="widget-title">',
+            'after_title'   => '</h2>',
+        )
+    );
     register_sidebar(
         array(
             'name'          => esc_html__( 'Footer', 'shahabtheme' ),
