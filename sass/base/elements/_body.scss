@@ -2,3 +2,18 @@ body {
 	background: $color__background-body; // Fallback for when there is no custom background color defined.
 	text-align: unset;
 }
+
+.main-has-sidebar{
+	main#primary{
+		display: flex;
+		place-content: space-between;
+		section.post-articles{
+			width: 70%;
+		}
+		aside#front-page-sidebar{
+			width: 25%;
+			margin-top: 60px;
+		}
+	}
+}
+

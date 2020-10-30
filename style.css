@@ -486,6 +486,20 @@ body {
 	text-align: unset;
 }
 
+.main-has-sidebar main#primary {
+	display: flex;
+	place-content: space-between;
+}
+
+.main-has-sidebar main#primary section.post-articles {
+	width: 70%;
+}
+
+.main-has-sidebar main#primary aside#front-page-sidebar {
+	width: 25%;
+	margin-top: 60px;
+}
+
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -920,25 +934,25 @@ article #post-cover header a:hover {
 		margin: 60px 90px;
 	}
 
-	body.single-post.has-sidebar main#primary article .entry-content {
+	body.single-post.blog-has-sidebar main#primary article .entry-content {
 		margin: 0;
 	}
 
-	body.single-post.has-sidebar main#primary article .content-sidebar {
+	body.single-post.blog-has-sidebar main#primary article .content-sidebar {
 		margin: 60px 90px 150px 90px;
 		display: flex;
 		place-content: space-between;
 	}
 
-	body.single-post.has-sidebar main#primary article .content-sidebar .single-content {
+	body.single-post.blog-has-sidebar main#primary article .content-sidebar .single-content {
 		width: 70%;
 	}
 
-	body.single-post.has-sidebar main#primary article .content-sidebar aside#secondary {
+	body.single-post.blog-has-sidebar main#primary article .content-sidebar aside#secondary {
 		width: 25%;
 	}
 
-	body.single-post.no-sidebar main#primary article .entry-content {
+	body.single-post.blog-no-sidebar main#primary article .entry-content {
 		margin: 60px 90px 150px 90px;
 	}
 }
