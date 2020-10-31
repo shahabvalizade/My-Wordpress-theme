@@ -878,6 +878,10 @@ body.single-post main#primary #comments div#respond {
 	margin-top: 3rem;
 }
 
+body.archive article {
+	margin: 60px 30px 120px 30px;
+}
+
 .updated:not(.published) {
 	display: none;
 }
@@ -952,26 +956,30 @@ article #post-cover header a:hover {
 		margin: 60px 90px;
 	}
 
-	body.single-post.blog-has-sidebar main#primary article .entry-content {
+	body.single-post.post-has-sidebar main#primary article .entry-content {
 		margin: 0;
 	}
 
-	body.single-post.blog-has-sidebar main#primary article .content-sidebar {
+	body.single-post.post-has-sidebar main#primary article .content-sidebar {
 		margin: 60px 90px 150px 90px;
 		display: flex;
 		place-content: space-between;
 	}
 
-	body.single-post.blog-has-sidebar main#primary article .content-sidebar .single-content {
+	body.single-post.post-has-sidebar main#primary article .content-sidebar .single-content {
 		width: 70%;
 	}
 
-	body.single-post.blog-has-sidebar main#primary article .content-sidebar aside#secondary {
+	body.single-post.post-has-sidebar main#primary article .content-sidebar aside#secondary {
 		width: 25%;
 	}
 
-	body.single-post.blog-no-sidebar main#primary article .entry-content {
+	body.single-post.post-no-sidebar main#primary article .entry-content {
 		margin: 60px 90px 150px 90px;
+	}
+
+	body.archive article {
+		margin: 60px 10% 150px 10%;
 	}
 }
 

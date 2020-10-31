@@ -70,6 +70,13 @@ body.single-post{
 	}
 }
 
+body.archive{
+	article {
+		margin: 60px 30px 120px 30px;
+	}
+}
+
+
 .updated:not(.published) {
 	display: none;
 }
@@ -150,7 +157,7 @@ article {
 		}
 	}
 
-	body.single-post.blog-has-sidebar{
+	body.single-post.post-has-sidebar{
 		main#primary {
 			article {
 				.entry-content {
@@ -172,7 +179,7 @@ article {
 			}
 		}
 	}
-	body.single-post.blog-no-sidebar{
+	body.single-post.post-no-sidebar{
 		main#primary {
 			article {
 				.entry-content {
@@ -181,10 +188,12 @@ article {
 			}
 		}
 	}
-
-
-
+	body.archive{
+		article{
+			margin: 60px 10% 150px 10%;
+		}
 	}
+}
 
 
 
