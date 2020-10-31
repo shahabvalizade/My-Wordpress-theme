@@ -63,6 +63,15 @@
 	}
 }
 
+.pagination {
+	text-align: center;
+	display: block;
+	margin-bottom: 50px;
+	span,a{
+		padding: 0 2%;
+	}
+}
+
 //**********Desktop Style**********
 @media screen and (min-width: 997px) {
 	#site-navigation {

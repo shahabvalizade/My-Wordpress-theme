@@ -2,17 +2,24 @@ body {
 	background: $color__background-body; // Fallback for when there is no custom background color defined.
 	text-align: unset;
 }
+aside#front-page-sidebar{
+	margin: 60px 30px;
+}
 
-.main-has-sidebar{
-	main#primary{
-		display: flex;
-		place-content: space-between;
-		section.post-articles{
-			width: 70%;
-		}
-		aside#front-page-sidebar{
-			width: 25%;
-			margin-top: 60px;
+@media screen and (min-width: 997px) {
+	.main-has-sidebar {
+		main#primary {
+			display: flex;
+			place-content: space-between;
+
+			section.post-articles {
+				width: 70%;
+			}
+
+			aside#front-page-sidebar {
+				width: 25%;
+				margin: 60px 0 0 0;
+			}
 		}
 	}
 }
