@@ -23,9 +23,9 @@ function shahabtheme_body_classes( $classes ) {
 	}
 	else{
         if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-            $classes[] = 'blog-no-sidebar';
+            $classes[] = 'post-no-sidebar';
         } else {
-            $classes[] = 'blog-has-sidebar';
+            $classes[] = 'post-has-sidebar';
         }
     }
 

@@ -7,7 +7,7 @@
  * @package Shahab_Valizade_Theme
  */
 
-if ( is_home() && is_front_page() ) :
+if ( ! is_singular() ) :
     if ( ! is_active_sidebar( 'sidebar-2' ) ) :
         return;
     endif;
