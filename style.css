@@ -882,6 +882,10 @@ body.archive article {
 	margin: 60px 30px 120px 30px;
 }
 
+body.search article {
+	margin: 60px 30px 120px 30px;
+}
+
 .updated:not(.published) {
 	display: none;
 }
@@ -983,6 +987,18 @@ article #post-cover header a:hover {
 	}
 
 	body.archive h1.page-title {
+		text-align: center;
+		color: #fff;
+		background-color: #072237;
+		margin: 0;
+		padding: 50px 0;
+	}
+
+	body.search article {
+		margin: 60px 10% 150px 10%;
+	}
+
+	body.search h1.page-title {
 		text-align: center;
 		color: #fff;
 		background-color: #072237;
