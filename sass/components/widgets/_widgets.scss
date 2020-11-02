@@ -10,10 +10,10 @@
 	}
 }
 
-#footer-widget{
+#footer-widget, #no-content-widget, aside#front-page-sidebar{
 	margin: 60px 30px;
-
 }
+
 @media screen and (min-width: 997px) {
 	#footer-widget {
 		margin: 60px 90px;
@@ -26,4 +26,8 @@
 			margin-bottom: 3em;
 		}
 	}
+	#no-content-widget, aside#front-page-sidebar{
+		margin: 60px 0 0 0;
+	}
+
 }

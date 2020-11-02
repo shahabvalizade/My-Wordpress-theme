@@ -2,6 +2,15 @@ body.search{
   article {
     margin: 60px 30px 120px 30px;
   }
+  .no-results{
+    margin: 60px 30px 120px 30px;
+    p {
+      text-align: center;
+    }
+    form.search-form {
+      text-align: center;
+    }
+  }
 }
 .continue-reading {
   text-align: right;
@@ -25,6 +34,10 @@ body.search{
     article {
       margin: 60px 10% 150px 10%;
     }
+    .no-results{
+      margin: 60px 10% 150px 10%;
+    }
+
 
     h1.page-title {
       text-align: center;
