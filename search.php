@@ -20,6 +20,11 @@ get_header();
             ?>
         </h1>
     </header><!-- .page-header -->
+<?php else : ?>
+    <header class="page-header">
+		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'shahabtheme' ); ?></h1>
+	</header><!-- .page-header -->
+
 <?php endif; ?>
 
 	<main id="primary" class="site-main">
@@ -41,17 +46,19 @@ get_header();
 
 			endwhile;
 
-			the_posts_pagination();
+			the_posts_pagination(); ?>
 
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-        </section>
+			 </section>
 
         <?php get_sidebar(); ?>
+
+        <?php   else :
+			get_template_part( 'template-parts/content', 'none' );
+        ?>
+        </section>
+        <?php get_sidebar('no-content');
+		endif;
+		?>
 
 	</main><!-- #main -->
 
