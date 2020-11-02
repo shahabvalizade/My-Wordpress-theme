@@ -1,0 +1,37 @@
+body.search{
+  article {
+    margin: 60px 30px 120px 30px;
+  }
+}
+.continue-reading {
+  text-align: right;
+  a{
+    padding: 10px 30px;
+    background-color: #072237;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover,&:focus,&:visited,&:active{
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
+
+//**********Desktop Style**********
+@media screen and (min-width: 997px) {
+  body.search {
+    article {
+      margin: 60px 10% 150px 10%;
+    }
+
+    h1.page-title {
+      text-align: center;
+      color: #ffffff;
+      background-color: #072237;
+      margin: 0;
+      padding: 50px 0;
+    }
+  }
+}

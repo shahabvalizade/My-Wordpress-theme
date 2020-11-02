@@ -798,6 +798,8 @@ a.custom-logo-link {
 	}
 }
 
+/****** Contents *****/
+
 /* Posts and pages
 --------------------------------------------- */
 body.blog main#primary article {
@@ -876,14 +878,6 @@ body.single-post main#primary #comments .comment-content p {
 
 body.single-post main#primary #comments div#respond {
 	margin-top: 3rem;
-}
-
-body.archive article {
-	margin: 60px 30px 120px 30px;
-}
-
-body.search article {
-	margin: 60px 30px 120px 30px;
 }
 
 .updated:not(.published) {
@@ -981,24 +975,62 @@ article #post-cover header a:hover {
 	body.single-post.post-no-sidebar main#primary article .entry-content {
 		margin: 60px 90px 150px 90px;
 	}
+}
 
-	body.archive article {
-		margin: 60px 10% 150px 10%;
-	}
+/* Search
+--------------------------------------------- */
+body.search article {
+	margin: 60px 30px 120px 30px;
+}
 
-	body.archive h1.page-title {
-		text-align: center;
-		color: #fff;
-		background-color: #072237;
-		margin: 0;
-		padding: 50px 0;
-	}
+.continue-reading {
+	text-align: right;
+}
+
+.continue-reading a {
+	padding: 10px 30px;
+	background-color: #072237;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.continue-reading a:hover,
+.continue-reading a:focus,
+.continue-reading a:visited,
+.continue-reading a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 997px) {
 
 	body.search article {
 		margin: 60px 10% 150px 10%;
 	}
 
 	body.search h1.page-title {
+		text-align: center;
+		color: #fff;
+		background-color: #072237;
+		margin: 0;
+		padding: 50px 0;
+	}
+}
+
+/* Archive
+--------------------------------------------- */
+body.archive article {
+	margin: 60px 30px 120px 30px;
+}
+
+@media screen and (min-width: 997px) {
+
+	body.archive article {
+		margin: 60px 10% 150px 10%;
+	}
+
+	body.archive h1.page-title {
 		text-align: center;
 		color: #fff;
 		background-color: #072237;
