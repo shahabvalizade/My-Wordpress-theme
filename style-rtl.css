@@ -796,10 +796,15 @@ a.custom-logo-link {
 
 /****** Contents *****/
 
-/* Posts and pages
+/* Blog
 --------------------------------------------- */
 body.blog main#primary article {
 	margin: 60px 30px 120px 30px;
+}
+
+body.blog main#primary article img.wp-post-image {
+	width: 100%;
+	max-height: 500px;
 }
 
 body.blog main#primary article header.entry-header {
@@ -815,6 +820,15 @@ body.blog main#primary article .entry-content a.more-link {
 	border-radius: 5%;
 }
 
+@media screen and (min-width: 997px) {
+
+	body.blog main#primary article {
+		margin: 60px 10% 150px 10%;
+	}
+}
+
+/* Posts and pages
+--------------------------------------------- */
 body.single-post main#primary article .entry-content {
 	margin: 60px 30px 120px 30px;
 }
@@ -926,10 +940,6 @@ article #post-cover header a:hover {
 
 @media screen and (min-width: 997px) {
 
-	body.blog main#primary article {
-		margin: 60px 10% 150px 10%;
-	}
-
 	body.single-post main#primary nav.post-navigation .nav-links {
 		display: flex;
 		margin: 0 90px 50px 90px;
@@ -1034,6 +1044,15 @@ body.search .no-results form.search-form {
 --------------------------------------------- */
 body.archive article {
 	margin: 60px 30px 120px 30px;
+}
+
+body.archive article img.wp-post-image {
+	width: 100%;
+	max-height: 500px;
+}
+
+body.archive article header.entry-header {
+	text-align: center;
 }
 
 @media screen and (min-width: 997px) {
