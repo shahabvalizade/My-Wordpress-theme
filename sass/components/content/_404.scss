@@ -1,0 +1,30 @@
+body.error404{
+  h1.page-title {
+    text-align: center;
+    color: #ffffff;
+    background-color: #072237;
+    margin: 0;
+    padding: 50px 0;
+  }
+  main#primary{
+    .page-content{
+      form.search-form {
+        text-align: center;
+      }
+      p.text-404{
+        text-align: center;
+      }
+    }
+  }
+}
+
+//**********Desktop Style**********
+@media screen and (min-width: 997px) {
+  body.error404 {
+    main#primary{
+      .page-content{
+        width: 70%;
+      }
+    }
+  }
+}
