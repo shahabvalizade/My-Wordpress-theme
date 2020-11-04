@@ -24,7 +24,7 @@
         </header><!-- .entry-header -->
         <?php shahabtheme_post_thumbnail(); ?>
     </div>
-    <section class="content-sidebar">
+    <section class="single-content-all">
         <section class="single-content">
 	        <div class="entry-content">
 	        	<?php
