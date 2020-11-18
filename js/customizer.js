@@ -39,4 +39,14 @@
 			}
 		} );
 	} );
+
+    wp.customize( 'theme_background_color', function( value ) {
+        value.bind( function( to ) {
+            // $( '.site-branding, #footer' ).css( { 'background-color': to, } );
+            $( '#footer , .site-branding , article #post-cover' ).css( {
+                'background-color': to,
+            } );
+        } );
+    } );
+
 }( jQuery ) );
