@@ -104,6 +104,11 @@ if ( ! function_exists( 'shahabtheme_setup' ) ) :
 
         // Add theme support for selective refresh for widgets.
         add_theme_support( 'align-wide' );
+
+        add_theme_support( 'editor-styles' );
+
+        //Add editor stylesheet
+        add_editor_style();
     }
 endif;
 add_action( 'after_setup_theme', 'shahabtheme_setup' );
